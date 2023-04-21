@@ -60,7 +60,7 @@ class NavBar extends StatelessWidget {
                 text: 'Skills', onTap: () => scrollToWidgetByKey(skillsKey)),
             NavBarItem(
               text: 'Interests',
-              onTap: () => scrollToWidgetByKey(intrestsKey),
+              onTap: () => scrollToWidgetByKey(skillsKey),
             ),
             const SizedBox(width: 60),
           ]),

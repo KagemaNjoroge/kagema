@@ -15,13 +15,9 @@ class NavBarButton extends StatelessWidget {
       onPressed: () => onPressed(),
       child: const Icon(Icons.menu, color: Colors.white),
       style: ElevatedButton.styleFrom(
-        elevation: 4.0,
+        foregroundColor: CustomColors.brightBackground, elevation: 4.0, backgroundColor: CustomColors.darkBackground,
         shape: const CircleBorder(),
-        padding: EdgeInsets.all(width >= Breakpoints.md? 0.03 * width : 0.03 * 762),
-        primary:
-            CustomColors.darkBackground, // <-- Button color
-        onPrimary:
-            CustomColors.brightBackground, // <-- Splash color
+        padding: EdgeInsets.all(width >= Breakpoints.md? 0.03 * width : 0.03 * 762), // <-- Splash color
       ),
     );
   }
