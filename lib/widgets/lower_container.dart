@@ -105,7 +105,7 @@ class LowerContainer extends StatelessWidget {
                         SkillCard(
                             title: 'Backend Development',
                             description:
-                                'I’m developing backend applications using NojeJs & Express. And also I’m developing Restful Api with Python Django.',
+                                'I’m developing backend applications using Next JS, Flutter. And also I’m developing Restful API\'s with Python Django.',
                             icon: ImageAssetConstants.backendIcon,
                             width: 2 * width,
                             ratio: 0.45),
