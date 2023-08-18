@@ -24,7 +24,7 @@ class Info extends StatelessWidget {
                   color: CustomColors.gray, fontSize: 13)),
           const SizedBox(height: 20),
           Text(
-              '• I like tinkering. My goal is simple. It is a complete understanding of technology, why works and how to make it work for me.',
+              '• I like tinkering. My goal is simple. It is a complete understanding of technology, why it works and how to make it work for me.',
               style: GoogleFonts.getFont('Delius',
                   color: CustomColors.gray, fontSize: 13)),
         ],
