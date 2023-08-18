@@ -12,7 +12,7 @@ This project designed using [Figma](https://www.figma.com) and built using [Flut
 
 ## Social Links
 - LinkedIn: [Njoroge](https://www.linkedin.com/in/kagemanjoroge/)
-- Github: [Njoroge](https://www.github.com/jemo6585/)
+- Github: [Njoroge](https://www.github.com/kagemanjoroge/)
 
 
 
