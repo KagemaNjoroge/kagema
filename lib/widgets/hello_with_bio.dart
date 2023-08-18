@@ -19,7 +19,7 @@ class HelloWithBio extends StatelessWidget {
                   color: Colors.white, fontSize: 26)),
           const SizedBox(height: 5),
           Text(
-              'AI is the new buzz word! Am researching AI',
+              'AI is the new buzz 😁word ! Am researching AI',
               style: GoogleFonts.getFont('Delius',
                   color: CustomColors.gray, fontSize: 16)),
         ],
