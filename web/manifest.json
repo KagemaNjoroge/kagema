@@ -1,11 +1,11 @@
 {
-    "name": "khalid-alsaleh-dev",
-    "short_name": "khalid-alsaleh-dev",
+    "name": "kagema-njoroge",
+    "short_name": "njoroge",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#6AE99F",
     "theme_color": "#6AE99F",
-    "description": "Hello I'm Khalid Al-Saleh I'm developing mobile,frontend and backend applicationa",
+    "description": "Hello I'm Kagema Njoroge I'm developing mobile apps, and am also learning Artificial Intelligence",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
