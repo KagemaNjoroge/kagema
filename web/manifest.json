@@ -3,8 +3,8 @@
     "short_name": "njoroge",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#6AE99F",
-    "theme_color": "#6AE99F",
+    "background_color": "#hexcode",
+    "theme_color": "#hexcode",
     "description": "Hello I'm Kagema Njoroge I'm developing mobile apps, and am also learning Artificial Intelligence",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
@@ -13,12 +13,23 @@
             "src": "icons/Icon-192.png",
             "sizes": "192x192",
             "type": "image/png"
-        }
-        ,
+        },
         {
             "src": "icons/Icon-512.png",
             "sizes": "512x512",
             "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
         }
     ]
 }
