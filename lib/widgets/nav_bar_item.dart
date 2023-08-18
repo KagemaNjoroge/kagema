@@ -38,7 +38,7 @@ class NavBarItem extends StatelessWidget {
                 Text(
                   text,
                   style: TextStyle(
-                    fontSize: 12.0,
+                    fontSize: 10.0,
                     color: data.value
                         ? CustomColors.primary
                         : Colors.white,
