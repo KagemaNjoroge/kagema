@@ -102,7 +102,7 @@ class NavBar extends StatelessWidget {
           }),
       const SizedBox(width: 10),
       NavBarItem(
-          text: 'Intrests',
+          text: 'Interests',
           onTap: () {
             scrollToWidgetByKey(intrestsKey);
             collapsableHeight.value = 0.0;
