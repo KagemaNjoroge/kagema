@@ -64,24 +64,24 @@ class NavBar extends StatelessWidget {
             ),
             const SizedBox(width: 60),
           ]),
-      Row(mainAxisAlignment: MainAxisAlignment.end, children: [
-        const SizedBox(width: 50),
-        Row(children: const [
+      const Row(mainAxisAlignment: MainAxisAlignment.end, children: [
+        SizedBox(width: 50),
+        Row(children: [
           NavBarItemWithIcon(
-            text: 'github',
+            text: 'Github',
             icon: ImageAssetConstants.github,
-            url: 'https://github.com/jemo6585/',
+            url: 'https://github.com/kagemanjoroge/',
           ),
           SizedBox(width: 10),
           NavBarItemWithIcon(
-              text: 'facebook',
+              text: 'Facebook',
               icon: ImageAssetConstants.facebook,
               url: 'https://www.facebook.com/reece.james.1088/'),
           SizedBox(width: 10),
           NavBarItemWithIcon(
-              text: 'linkedIn',
+              text: 'LinkedIn',
               icon: ImageAssetConstants.linkedIn,
-              url: 'https://www.linkedin.com/in/jemo6585/'),
+              url: 'https://www.linkedin.com/in/kagemanjoroge/'),
           SizedBox(width: 50),
         ])
       ])
@@ -108,18 +108,18 @@ class NavBar extends StatelessWidget {
             collapsableHeight.value = 0.0;
           }),
       NavBarItem(
-          text: 'github',
+          text: 'Github',
           onTap: () async {
-            await launch('https://github.com/jemo6585/');
+            await launchUrl(Uri.parse('https://github.com/kagemanjoroge/'));
           }),
       NavBarItem(
-          text: 'facebook',
+          text: 'Facebook',
           onTap: () async =>
-              await launch('https://www.facebook.com/reece.james.1088/')),
+              await launchUrl(Uri.parse('https://www.facebook.com/reece.james.1088/'))),
       NavBarItem(
-          text: 'linkedIn',
-          onTap: () async => await launch(
-              'https://www.linkedin.com/in/jemo6585/')),
+          text: 'LinkedIn',
+          onTap: () async => await launchUrl(Uri.parse(
+              'https://www.linkedin.com/in/kagemanjorge/'))),
     ];
     return Stack(
       children: [

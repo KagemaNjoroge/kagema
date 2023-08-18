@@ -55,10 +55,12 @@ class Footer extends StatelessWidget {
                           color: CustomColors.gray,
                           fontSize: 14)),
                   const SizedBox(height: 10),
-                  Text('reecejames934gmail.com',
+                  Text('https://njoroge.tomorrow.co.ke',
                       style: GoogleFonts.getFont('Delius',
-                          color: CustomColors.gray,
-                          fontSize: 14)),
+                          color: CustomColors.purple,
+                          fontSize: 10)),
+                          
+
                 ],
               ),
              

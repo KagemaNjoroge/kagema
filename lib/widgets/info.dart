@@ -15,7 +15,7 @@ class Info extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-              '• I’m Computer Science at the University Of Nairobi.',
+              '• I’m studying Computer Science at the University Of Nairobi.',
               style: GoogleFonts.getFont('Delius',
                   color: CustomColors.gray, fontSize: 13)),
           const SizedBox(height: 20),

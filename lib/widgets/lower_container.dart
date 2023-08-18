@@ -113,7 +113,7 @@ class LowerContainer extends StatelessWidget {
                         SkillCard(
                             title: 'Python Development',
                             description:
-                                'I’m developing machine learning applications using Python and Tensorflow api.',
+                                'I’m developing machine learning applications using Python and Tensorflow API. Am particularly interested in LLM\'s',
                             icon: ImageAssetConstants.python,
                             width: 2 * width,
                             ratio: 0.45),
