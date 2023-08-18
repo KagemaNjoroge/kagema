@@ -29,7 +29,7 @@ class Footer extends StatelessWidget {
             ? Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
-                   Text('Copyright © 2023 James Njoroge',
+                   Text('Copyright © 2023 Kagema Njoroge',
                       style: GoogleFonts.getFont('Delius',
                           color: CustomColors.gray,
                           fontSize: 14)),
