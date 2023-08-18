@@ -17,7 +17,7 @@ class KhalidImage extends StatelessWidget {
         Container(
           constraints:const BoxConstraints(maxWidth:370),
           child: Image.asset(
-            ImageAssetConstants.khalid,
+            ImageAssetConstants.njoroge,
             width: width * 0.29,
             height: width * 0.3,
           ),
@@ -44,9 +44,9 @@ class KhalidImage extends StatelessWidget {
           top: width * 0.06,
           right: width * 0.016,
           child: Image.asset(
-            ImageAssetConstants.javaCircle,
-            width: width * 0.06,
-            height: width * 0.058,
+            ImageAssetConstants.tensorflow,
+            width: width * 0.09,
+            height: width * 0.090,
           ),
         ),
         Positioned(
