@@ -39,7 +39,7 @@ class NavBar extends StatelessWidget {
       const Padding(
         padding: EdgeInsets.only(left: 40.0),
         child: Text(
-          "James Njoroge",
+          "Kagema Njoroge",
           style: TextStyle(
               color: Colors.purpleAccent,
               fontSize: 40,
