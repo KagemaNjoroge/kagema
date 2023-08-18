@@ -11,4 +11,6 @@ class ImageAssetConstants{
   static const String python='assets/images/python.png';
   static const String khalid='assets/images/khalid.png';
   static const String backendIcon='assets/images/backend_icon.png';
+  static const String njoroge='assets/images/jemo.JPG';
+  static const String tensorflow='assets/images/tensorflow.png';
 }

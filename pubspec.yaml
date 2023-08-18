@@ -44,6 +44,8 @@ flutter:
     - assets/images/python_circle.png
     - assets/images/backend_icon.png
     - assets/images/logo_.png
+    - assets/images/jemo.JPG
+    - assets/images/tensorflow.png
 
 flutter_launcher_icons:
   android: "launcher_icon"
