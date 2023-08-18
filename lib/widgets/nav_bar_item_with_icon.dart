@@ -21,7 +21,7 @@ class NavBarItemWithIcon extends StatelessWidget {
       ),
       icon: Image.asset(icon),
       onPressed: () async {
-        await launch(url);
+        await launchUrl(Uri.parse(url));
       },
       label: Text(text, style: const TextStyle(fontSize: 12)),
     );
