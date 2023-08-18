@@ -199,7 +199,7 @@ class LowerContainer extends StatelessWidget {
                   height: 360,
                   child: StaggeredGridView.countBuilder(
                     crossAxisCount: 8,
-                    itemCount: 8,
+                    itemCount: intrests.length,
                     itemBuilder: (BuildContext context, int index) => Intrest(
                       intrest: intrests[index]['intrest'],
                       color: intrests[index]['color'],
