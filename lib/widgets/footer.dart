@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:portfolio/utils/breakpoints.dart';
 import 'package:portfolio/utils/custom_colors.dart';
-import 'package:portfolio/widgets/logo.dart';
 
 class Footer extends StatelessWidget {
   final double width;
