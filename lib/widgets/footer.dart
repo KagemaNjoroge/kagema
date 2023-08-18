@@ -18,7 +18,7 @@ class Footer extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Text(
-              "James Njoroge",
+              "Kagema Njoroge",
               style: GoogleFonts.getFont('Montserrat',
                   color: Colors.greenAccent,
                   fontSize: 40,
@@ -55,7 +55,7 @@ class Footer extends StatelessWidget {
                           color: CustomColors.gray,
                           fontSize: 14)),
                   const SizedBox(height: 10),
-                  Text('https://njoroge.tomorrow.co.ke',
+                  Text('reecejames934@gmail.com',
                       style: GoogleFonts.getFont('Delius',
                           color: CustomColors.purple,
                           fontSize: 10)),
