@@ -6,7 +6,7 @@ import 'package:portfolio/utils/custom_colors.dart';
 import 'package:portfolio/utils/image_asset_constants.dart';
 import 'package:portfolio/widgets/hello_with_bio.dart';
 import 'package:portfolio/widgets/info.dart';
-import 'package:portfolio/widgets/intrest.dart';
+import 'package:portfolio/widgets/interest.dart';
 import 'package:portfolio/widgets/skill_card.dart';
 
 class LowerContainer extends StatelessWidget {
