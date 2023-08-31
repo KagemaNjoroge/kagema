@@ -119,7 +119,7 @@ class NavBar extends StatelessWidget {
       NavBarItem(
           text: 'LinkedIn',
           onTap: () async => await launchUrl(Uri.parse(
-              'https://www.linkedin.com/in/kagemanjorge/'))),
+              'https://www.linkedin.com/in/kagemanjoroge/'))),
     ];
     return Stack(
       children: [
