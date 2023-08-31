@@ -1,6 +1,5 @@
 # Flutter Portfolio App 👏👍🔥
 
-This project designed using [Figma](https://www.figma.com) and built using [Flutter](https://www.flutter.dev).
 
 ## About Njoroge
 - Self taught Flutter developer
