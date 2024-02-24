@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:portfolio/utils/breakpoints.dart';
+import 'package:portfolio/utils/constants.dart';
 import 'package:portfolio/utils/custom_colors.dart';
 import 'package:portfolio/utils/image_asset_constants.dart';
 import 'package:portfolio/widgets/logo.dart';
@@ -36,18 +37,17 @@ class NavBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Widget navBarRow = Stack(children: [
-      const Padding(
-        padding: EdgeInsets.only(left: 40.0),
+      Padding(
+        padding: const EdgeInsets.only(left: 40.0),
         child: Text(
-          "Kagema Njoroge",
-          style: TextStyle(
-              color: Colors.purpleAccent,
-              fontSize: 40,
+          name,
+          style: const TextStyle(
+              color: CustomColors.primary,
+              fontSize: 30,
               fontWeight: FontWeight.bold,
               fontFamily: 'Montserrat'),
         ),
       ),
-
       Row(
           crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.center,
@@ -64,25 +64,25 @@ class NavBar extends StatelessWidget {
             ),
             const SizedBox(width: 60),
           ]),
-      const Row(mainAxisAlignment: MainAxisAlignment.end, children: [
-        SizedBox(width: 50),
+      Row(mainAxisAlignment: MainAxisAlignment.end, children: [
+        const SizedBox(width: 50),
         Row(children: [
           NavBarItemWithIcon(
             text: 'Github',
             icon: ImageAssetConstants.github,
-            url: 'https://github.com/kagemanjoroge/',
+            url: github,
           ),
-          SizedBox(width: 10),
+          const SizedBox(width: 10),
           NavBarItemWithIcon(
               text: 'Facebook',
               icon: ImageAssetConstants.facebook,
-              url: 'https://www.facebook.com/reece.james.1088/'),
-          SizedBox(width: 10),
+              url: facebook),
+          const SizedBox(width: 10),
           NavBarItemWithIcon(
               text: 'LinkedIn',
               icon: ImageAssetConstants.linkedIn,
-              url: 'https://www.linkedin.com/in/kagemanjoroge/'),
-          SizedBox(width: 50),
+              url: linkedIn),
+          const SizedBox(width: 50),
         ])
       ])
     ]);
@@ -110,16 +110,14 @@ class NavBar extends StatelessWidget {
       NavBarItem(
           text: 'Github',
           onTap: () async {
-            await launchUrl(Uri.parse('https://github.com/kagemanjoroge/'));
+            await launchUrl(Uri.parse(github));
           }),
       NavBarItem(
           text: 'Facebook',
-          onTap: () async =>
-              await launchUrl(Uri.parse('https://www.facebook.com/reece.james.1088/'))),
+          onTap: () async => await launchUrl(Uri.parse(facebook))),
       NavBarItem(
           text: 'LinkedIn',
-          onTap: () async => await launchUrl(Uri.parse(
-              'https://www.linkedin.com/in/kagemanjoroge/'))),
+          onTap: () async => await launchUrl(Uri.parse(linkedIn))),
     ];
     return Stack(
       children: [
@@ -150,7 +148,10 @@ class NavBar extends StatelessWidget {
                   children: [
                     Padding(
                         padding: EdgeInsets.only(left: width * 0.04),
-                        child: Logo(width: width,scrollController: scrollController,)),
+                        child: Logo(
+                          width: width,
+                          scrollController: scrollController,
+                        )),
                     NavBarButton(
                         onPressed: () {
                           if (collapsableHeight.value == 0.0) {
