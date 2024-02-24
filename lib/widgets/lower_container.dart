@@ -43,9 +43,17 @@ class LowerContainer extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         SkillCard(
+                            title: 'Python Development ✅',
+                            description:
+                                'I\'m developing machinine learning applications using Python and Pytorch API. Am particularly interested in LLM\'s. Inspired by the works of Andrej Karpathy and Jeremy Howard.',
+                            icon: ImageAssetConstants.python,
+                            width: width,
+                            ratio: 0.35),
+                        const SizedBox(height: 10),
+                        SkillCard(
                           title: 'Flutter Development',
                           description:
-                              'I’m developing android,ios and web applications using Flutter',
+                              'Lately I\'ve been developing Android,ios, Desktop and web applications with Flutter. I\'m loving it!',
                           icon: ImageAssetConstants.flutter,
                           width: width,
                           ratio: 0.35,
@@ -54,19 +62,11 @@ class LowerContainer extends StatelessWidget {
                         SkillCard(
                           title: 'Backend Development',
                           description:
-                              'I’m developing backend applications NodeJs &. Express. And also I’m developing Restful Api with Python Django.',
+                              'I love Django. I have deadlines to meet!',
                           icon: ImageAssetConstants.backendIcon,
                           width: width,
                           ratio: 0.35,
                         ),
-                        const SizedBox(height: 10),
-                        SkillCard(
-                            title: 'Python Development',
-                            description:
-                                'I’m developing machinine learning applications using Python and Tensorflow api.',
-                            icon: ImageAssetConstants.python,
-                            width: width,
-                            ratio: 0.35),
                       ],
                     ),
                     SizedBox(width: 0.05 * width),
@@ -75,13 +75,13 @@ class LowerContainer extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
                         HelloWithBio(
-                          ratio:0.4 ,
+                          ratio: 0.4,
                           width: width,
                         ),
                         const SizedBox(
                           height: 30,
                         ),
-                        Info(width: width,ratio:0.4)
+                        Info(width: width, ratio: 0.4)
                       ],
                     )
                   ],
@@ -95,9 +95,17 @@ class LowerContainer extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         SkillCard(
+                            title: 'Python ✅',
+                            description:
+                                'I\'m developing machinine learning applications using Python and Pytorch API. Am particularly interested in LLM\'s. Inspired by the works of Andrej Karpathy and Jeremy Howard.',
+                            icon: ImageAssetConstants.python,
+                            width: 2 * width,
+                            ratio: 0.45),
+                        const SizedBox(height: 10),
+                        SkillCard(
                             title: 'Flutter Development',
                             description:
-                                'I’m developing Android,ios, Desktop and web applications with Flutter.',
+                                'Lately I\'ve been developing Android,ios, Desktop and web applications with Flutter. I\'m loving it!',
                             icon: ImageAssetConstants.flutter,
                             width: 2 * width,
                             ratio: 0.45),
@@ -105,16 +113,8 @@ class LowerContainer extends StatelessWidget {
                         SkillCard(
                             title: 'Backend Development',
                             description:
-                                'I’m developing backend applications using Next JS, Flutter. And also I’m developing Restful API\'s with Python Django.',
+                                'I love Django. I have deadlines to meet!',
                             icon: ImageAssetConstants.backendIcon,
-                            width: 2 * width,
-                            ratio: 0.45),
-                        const SizedBox(height: 10),
-                        SkillCard(
-                            title: 'Python Development',
-                            description:
-                                'I’m developing machine learning applications using Python and Tensorflow API. Am particularly interested in LLM\'s',
-                            icon: ImageAssetConstants.python,
                             width: 2 * width,
                             ratio: 0.45),
                       ],
@@ -126,11 +126,14 @@ class LowerContainer extends StatelessWidget {
                         const SizedBox(
                           height: 30,
                         ),
-                        HelloWithBio(width: 3 * width,ratio: 0.3,),
+                        HelloWithBio(
+                          width: 3 * width,
+                          ratio: 0.3,
+                        ),
                         const SizedBox(
                           height: 35,
                         ),
-                        Info(width: 3 * width,ratio:0.3),
+                        Info(width: 3 * width, ratio: 0.3),
                       ],
                     )
                   ],
@@ -142,7 +145,8 @@ class LowerContainer extends StatelessWidget {
             ),
             Container(
               alignment: Alignment.centerLeft,
-              margin: EdgeInsets.only(left:width>=Breakpoints.lg? width * 0.1:width * 0.05),
+              margin: EdgeInsets.only(
+                  left: width >= Breakpoints.lg ? width * 0.1 : width * 0.05),
               child: Text('Some of my interests',
                   style: GoogleFonts.getFont('Delius',
                       color: Colors.white, fontSize: 19)),
@@ -216,8 +220,7 @@ class LowerContainer extends StatelessWidget {
                 );
               }
             }),
-            const SizedBox(height:10)
-        
+            const SizedBox(height: 10)
           ],
         ));
   }
