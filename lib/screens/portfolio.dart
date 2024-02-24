@@ -4,8 +4,8 @@ import 'package:portfolio/utils/breakpoints.dart';
 import 'package:portfolio/utils/custom_colors.dart';
 import 'package:portfolio/widgets/footer.dart';
 import 'package:portfolio/widgets/lower_container.dart';
-import 'package:portfolio/widgets/upper_container.dart';
 import 'package:portfolio/widgets/nav_bar.dart';
+import 'package:portfolio/widgets/upper_container.dart';
 
 class Portfolio extends StatefulWidget {
   const Portfolio({Key? key}) : super(key: key);
@@ -31,13 +31,11 @@ class _PortfolioState extends State<Portfolio> {
     showFloatingButton = false.obs;
 
     intrests = [
-
       {
         'intrest': 'Chess',
         'color': CustomColors.brightBackground,
         'textColor': CustomColors.primary,
       },
-
       {
         'intrest': 'Listening to music',
         'color': CustomColors.brightBackground,
@@ -48,13 +46,11 @@ class _PortfolioState extends State<Portfolio> {
         'color': CustomColors.brightBackground,
         'textColor': CustomColors.primary,
       },
-
       {
-        'intrest': 'Learning English',
+        'intrest': 'Learning Zhongwenren',
         'color': CustomColors.brightBackground,
         'textColor': CustomColors.primary,
       },
-
     ];
 
     scrollController.addListener(() {
@@ -104,9 +100,12 @@ class _PortfolioState extends State<Portfolio> {
                   Container(
                     width: width,
                     height: 0.1,
-                    color:CustomColors.gray,
+                    color: CustomColors.gray,
                   ),
-                  Footer(width: width,scrollController: scrollController,),
+                  Footer(
+                    width: width,
+                    scrollController: scrollController,
+                  ),
                 ],
               ),
               NavBar(
